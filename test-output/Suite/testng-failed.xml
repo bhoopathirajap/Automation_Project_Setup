@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="environment" value="local"/>
+  <parameter name="OS" value="Mac"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="66"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.collectorpro.test.TC01_Login">
+        <methods>
+          <include name="testNGValues"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.collectorpro.test.TC01_Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
